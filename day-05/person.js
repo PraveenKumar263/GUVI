@@ -37,6 +37,7 @@ class Person {
 
 
 var p1 = new Person('Mark', 30, 'male');
+console.log(p1);
 console.log(p1.greet());
 console.log(p1.getGender());
 p1.setAge(23);
